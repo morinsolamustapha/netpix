@@ -1,0 +1,20 @@
+@font-face{
+  font-family: lobster;
+  src: url("Lobster_1.3.otf");
+}
+
+@font-face{
+  font-family: specialelite;
+  src: url("SpecialElite.ttf");
+}
+
+@font-face{
+  font-family: amaticsc;
+  src:url("Amatic-Bold.ttf");
+}
+
+h1{color:rgb(139, 190, 253);  font-family: specialelite; font-size: 400%;}
+div{color:rgb(199, 57, 103);  font-family: amaticsc; font-size: 140%;}
+body {
+  background-image: url("https://www.vogue.com/wp-content/uploads/2015/08/05/Oscars-Banner2-NEW.jpg")
+}
