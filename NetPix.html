@@ -5,15 +5,16 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="netpixstyles.css">
     <script src="huluapi.js"></script>
+    <script src="general.js"></script>
     <title>What is your mood search box</title>
   </head>
   <body>
     <h1>NetPix</h1>
     <div> </div>
     <div class ="search-box-wrapper">
-      <input class="search-box-input" type="text" name="" placeholder="What's your mood?">
+      <input id="input" class="search-box-input" type="text" value="" placeholder="What's your mood?">
       <a class="search-btn" href="#"></a>
-      <button class="search-box-button">Search</button>
+      <button class="search-box-button" type="button" onclick="result()">Search</button>
     </div>
     <div id="check">
     <label class="container" id="tv">TV Show
