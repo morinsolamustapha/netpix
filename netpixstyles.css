@@ -145,3 +145,8 @@ html{
   display: flex;
   justify-content: center;
 }
+
+#moods{
+  colo:white;
+  font-family: amaticsc;  
+}
