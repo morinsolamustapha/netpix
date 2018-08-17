@@ -214,7 +214,7 @@ var updatesilly = function(what){
   silly.push(what);
   displayBoth(silly);
 }
-
+var trigger;
 var displayBoth = function(list, Type = "both"){
   var bothDisplay = "";
   for(var i = 0; i < list.length; i++){

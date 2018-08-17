@@ -35,7 +35,7 @@ h1{
   height: 60px;
   padding: 10px;
   margin:0px;
-  margin-top: 10px;
+  margin-top: 60px;
   display:inline-flex;
   font-size: 30px
 }
@@ -73,7 +73,8 @@ html{
   font-family: amaticsc;
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 30px;
+  padding-right: 35px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -137,16 +138,19 @@ html{
 #tv,#movie{
   color:white;
   display: inline-block;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 #check{
   display: flex;
   justify-content: center;
+  padding:0px;
 }
 
-#moods{
-  colo:white;
-  font-family: amaticsc;  
+#mood{
+  font-size: 50px;
+  padding:10px;
+  color:white;
+  font-family: amaticsc;
 }

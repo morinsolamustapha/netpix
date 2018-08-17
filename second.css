@@ -1,0 +1,37 @@
+
+@font-face{
+  font-family: lobster;
+  src: url("Lobster_1.3.otf");
+}
+
+@font-face{
+  font-family: specialelite;
+  src: url("SpecialElite.ttf");
+}
+
+@font-face{
+  font-family: amaticsc;
+  src:url("Amatic-Bold.ttf");
+}
+
+html{
+  background:linear-gradient(rgb(253,212,34), rgb(250,97,100),rgb(139,190,253)) no-repeat fixed center;
+
+}
+
+h1{
+  font-family:specialelite;
+  font-size: 70px;
+  color: white;
+}
+
+#response{
+  size: 50%;
+  padding: 10px;
+}
+
+.movie{
+  width: 251px;
+  height: 375px;
+  padding:10px;
+}
