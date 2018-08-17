@@ -5,9 +5,12 @@
 function result(){
   //localStorage.query = document.getElementById("silly").checked;
   localStorage.query = document.getElementById("input").value;
-  if(document.getElementById("tv").checked){
-    alert("working")
-    displaysilly(silly, "series");
-  }
+  localStorage.series = document.getElementById("tv").checked;
+  localStorage.film = document.getElementById("movie").checked;
+
+  // if(document.getElementById("tv").checked){
+  //   alert("working")
+  //   displaysilly(silly, "series");
+  // }
   window.open("sillysuggest.html", '_self');
 }

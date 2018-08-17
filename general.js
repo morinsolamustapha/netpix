@@ -1,9 +1,11 @@
 if (localStorage.getItem("query") == "silly") {
+  document.getElementById("title").innerHTML = "Silly";
   addList('silly.js');
 }
 
 if (localStorage.getItem("query") == "inspired") {
   addList('inspired.js');
+  document.getElementById("title").innerHTML = "Inspired";
 }
 
 function addList(filename) {
@@ -16,7 +18,9 @@ function addList(filename) {
   h.appendChild(s);
 }
 
-if(document.getElementById("tv").checked){
-  alert("working")
-  displaysilly(silly, "series");
-}
+
+
+// if(document.getElementById("tv").checked){
+//   alert("working")
+//   displaysilly(silly, "series");
+// }

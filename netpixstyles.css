@@ -34,6 +34,8 @@ h1{
   transform: translate(-50%, -50%);
   height: 60px;
   padding: 10px;
+  margin:0px;
+  margin-top: 60px;
   display:inline-flex;
   font-size: 30px
 }
@@ -71,7 +73,8 @@ html{
   font-family: amaticsc;
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 30px;
+  padding-right: 35px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -135,16 +138,23 @@ html{
 #tv,#movie{
   color:white;
   display: inline-block;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 #check{
   display: flex;
   justify-content: center;
+  padding:0px;
 }
 
+<<<<<<< HEAD
 #moods{
+=======
+#mood{
+  font-size: 50px;
+  padding:10px;
+>>>>>>> 5c77276a43a910c01f13872a5e3894830cf28c2d
   color:white;
   font-family: amaticsc;
 }
