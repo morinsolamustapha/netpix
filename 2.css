@@ -31,4 +31,6 @@ button {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 12px;}
+    border-radius: 12px;
+    font-family: amaticsc
+  }
