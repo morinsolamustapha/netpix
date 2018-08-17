@@ -148,13 +148,9 @@ html{
   padding:0px;
 }
 
-<<<<<<< HEAD
-#moods{
-=======
 #mood{
   font-size: 50px;
   padding:10px;
->>>>>>> 5c77276a43a910c01f13872a5e3894830cf28c2d
   color:white;
   font-family: amaticsc;
 }
