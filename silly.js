@@ -234,8 +234,8 @@ var displayBoth = function(list, Type = "both"){
 
   for(var i = 0; i < list.length; i++){
     if(silly[i]["Type"] == Type || Type == "both")
-      bothDisplay += "<button class = 'accordion' onclick='doAlert()'><img class='movie' id=" + list[i]["Title"] + " src=" + list[i]["Poster"] + "></button>";
-      var panel = "<div class = 'panel'><h2>"+list[i]["Title"]+"</h2><p>"+list[i]['Plot']+"</p><p>"+list[i]["Actors"]+"</p><h4>"+list[i]["Genre"]+"</h4><h4>"+list[i]["Year"]+"</h4><h4>"+list[i]["Rated"]+"</h4><h4>"+list[i]["imdbRating"]+"</h4><button>see what twitter is saying!</button></div>";
+      bothDisplay += "<button class = 'accordion' onclick='doAlert()' id='accordion'><img class='movie' id=" + list[i]["Title"] + " src=" + list[i]["Poster"] + "></button>";
+      var panel = "<div class = 'panel'><h2>"+list[i]["Title"]+"</h2><p>"+list[i]['Plot']+"</p><p>Actors: "+list[i]["Actors"]+"</p><h4 class='aye'>Genre: "+list[i]["Genre"]+" </h4><h4 class='aye'>Year(s): "+list[i]["Year"]+" </h4><h4 class='aye'>Rating: "+list[i]["Rated"]+" </h4><h4 class = 'aye'>Average Score: "+list[i]["imdbRating"]+" </h4><button align='right'>see what twitter is saying!</button></div>";
       bothDisplay += panel;
   }
   document.getElementById("response").innerHTML = bothDisplay;
