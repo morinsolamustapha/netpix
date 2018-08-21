@@ -23,10 +23,10 @@ h1{
   font-family:specialelite;
   font-size: 70px;
   color: white;
+  text-align: left;
 }
 
 #response{
-  size: 50%;
   padding: 10px;
 }
 
@@ -51,6 +51,7 @@ button {
     cursor: pointer;
     border-radius: 12px;
     font-family: amaticsc;
+<<<<<<< HEAD
  }
 h1{
   text-align: left;
@@ -58,3 +59,39 @@ h1{
  body{
    text-align: center;
  }
+=======
+}
+body{
+  text-align: center;
+
+}
+.accordion{
+  padding: 0px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: none;
+  transition: 0.4s;
+
+}
+.panel{
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: 30px;
+}
+h2{
+  font-family:lobster;
+  color:rgb(199, 57, 103);
+}
+p{
+  font-family: amaticsc;
+  color: rgb(44, 64, 150);
+}
+h4{
+  font-family: specialelite;
+  color:rgb(255, 243, 137);
+
+}
+>>>>>>> 80291a420167fa125809e622f87eeda53b08cca1

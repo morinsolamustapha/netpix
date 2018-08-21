@@ -21,6 +21,11 @@ function addList(filename) {
 function goBack(){
   window.open("NetPix.html","_self")
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 80291a420167fa125809e622f87eeda53b08cca1
 
 // if(document.getElementById("tv").checked){
 //   alert("working")

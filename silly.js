@@ -1,6 +1,6 @@
+var acc = document.getElementsByClassName("accordion");
 var url = " http://www.omdbapi.com/?i=tt3896198&apikey=4f0c28d4&";
 var silly = [];
-
 fetch(url + "t=Friends")
 .then(data=>{return data.json()})
 .then(res=>{
@@ -215,11 +215,28 @@ var updatesilly = function(what){
   displayBoth(silly);
 }
 var trigger;
+function doAlert() {
+   var i;
+   for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+          panel.style.display = "none";
+      } else {
+          panel.style.display ="block";
+      }
+    });
+  }
+}
 var displayBoth = function(list, Type = "both"){
   var bothDisplay = "";
+
   for(var i = 0; i < list.length; i++){
     if(silly[i]["Type"] == Type || Type == "both")
-      bothDisplay += "<img class='movie' id=" + list[i]["Title"] + " src=" + list[i]["Poster"] + ">"
+      bothDisplay += "<button class = 'accordion' onclick='doAlert()'><img class='movie' id=" + list[i]["Title"] + " src=" + list[i]["Poster"] + "></button>";
+      var panel = "<div class = 'panel'><h2>"+list[i]["Title"]+"</h2><p>"+list[i]['Plot']+"</p><p>"+list[i]["Actors"]+"</p><h4>"+list[i]["Genre"]+"</h4><h4>"+list[i]["Year"]+"</h4><h4>"+list[i]["Rated"]+"</h4><h4>"+list[i]["imdbRating"]+"</h4><button>see what twitter is saying!</button></div>";
+      bothDisplay += panel;
   }
   document.getElementById("response").innerHTML = bothDisplay;
 }
