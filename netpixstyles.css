@@ -35,7 +35,7 @@ h1{
   height: 60px;
   padding: 10px;
   margin:0px;
-  margin-top: 60px;
+  margin-top: 150px;
   display:inline-flex;
   font-size: 30px
 }
@@ -43,7 +43,7 @@ h1{
 .search-box-input{
   font-family: specialelite;
   font-size: inherit;
-  border:0.2em solid rgb(255,243,137);
+  border:0.2em solid rgb(139,190,253);
   border-radius: 0.5em 0 0 0.5em;
   padding: 0.2em 0.5em;
   outline:0;
@@ -52,9 +52,9 @@ h1{
 .search-box-button{
   font-family: specialelite;
   font-size: inherit;
-  border: 0.2em solid rgb(253,243,137);
+  border: 0.2em solid rgb(139,190,253);
   border-radius: 0 0.5em 0.5em 0;
-  background-color: rgb(253,243,137);
+  background-color: rgb(139,190,253);
   border-left: 0;
   padding:0 0;
   color: white;
@@ -64,7 +64,7 @@ h1{
 }
 
 
-html{
+/*html{
   background: linear-gradient(to bottom right,rgb(199,57,103),rgb(44,64,150)) no-repeat fixed center;
 }
 
@@ -107,7 +107,7 @@ html{
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: rgb(255,243,137);
+  background-color: rgb(139,190,253);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -153,4 +153,22 @@ html{
   padding:10px;
   color:white;
   font-family: amaticsc;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html , body {
+    width: 100%;
+    height: 100%:
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+html {
+    background-color: rgba(245,240,255,1);
 }

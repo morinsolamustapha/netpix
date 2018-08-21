@@ -15,9 +15,7 @@
 
 h1{color:rgb(139, 190, 253);  font-family: specialelite; font-size: 400%;}
 div{color:rgb(199, 57, 103);  font-family: amaticsc; font-size: 140%;}
-body {
-  background-image: url("http://backdoors.in/img/leaves-header.png"); background-repeat:no-repeat; background-size:cover;
-}
+
 button {
     background-color:rgb(139, 190, 293);
     border: none;
