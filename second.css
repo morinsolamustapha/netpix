@@ -51,4 +51,10 @@ button {
     cursor: pointer;
     border-radius: 12px;
     font-family: amaticsc;
-;
+ }
+h1{
+  text-align: left;
+}
+ body{
+   text-align: center;
+ }

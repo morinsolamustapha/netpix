@@ -18,7 +18,9 @@ function addList(filename) {
   h.appendChild(s);
 }
 
-
+function goBack(){
+  window.open("NetPix.html","_self")
+}
 
 // if(document.getElementById("tv").checked){
 //   alert("working")
